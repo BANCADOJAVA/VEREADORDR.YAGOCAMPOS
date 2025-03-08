@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VEREADOR YAGO CAMPOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #004aad, #ffffff);
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            min-height: 250px;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-body h2 {
+            margin-bottom: 15px;
+        }
+
+        .card-body p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .like-container {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .fa {
+            font-size: 30px;
+            cursor: pointer;
+            user-select: none;
+            color: #d35400;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        .fa:hover {
+            color: #ff6600;
+            transform: scale(1.2);
+        }
+
+        header,
+        footer {
+            background: rgba(0, 74, 173, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+            color: rgb(255, 255, 255);
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .topnav .search-container {
+            float: right;
+        }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .topnav .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .topnav .search-container button:hover {
+            background: #ccc;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav .search-container {
+                float: none;
+            }
+
+            .topnav a,
+            .topnav input[type=text],
+            .topnav .search-container button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+
+            /* Ajuste dos botões de redes sociais */
+            .social-icons {
+                position: relative; /* Alterado para relative */
+                z-index: 999;
+                margin-top: 20px; /* Adicionando margem para não ficar colado ao topo */
+            }
+
+            .social-icons a {
+                font-size: 20px;
+                margin: 0 5px;
+            }
+
+            /* Ajuste no card para melhor visualização em dispositivos móveis */
+            .card-body p {
+                font-size: 14px;
+                overflow-wrap: break-word;
+            }
+
+            /* Ajuste para garantir que a imagem do card não fique cortada */
+            .card img {
+                object-fit: cover;
+                min-height: 200px;
+            }
+
+            .like-container {
+                position: static;
+                margin-top: 10px;
+            }
+        }
+
+        /* Botões de redes sociais */
+        .social-icons a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="text-center py-4" style="position: relative;">
+        <h1>VEREADOR YAGO CAMPOS</h1>
+        <p>Trabalhando lado a lado com a comunidade para um futuro melhor!</p>
+    </header>
+
+    <div class="topnav">
+        <a class="active" href="portfolio.html">Ações e Projetos</a>
+        <a href="">tEXTO</a>
+        <a href="#contact">tEXTO</a>
+        <div class="search-container">
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" placeholder="Search.." name="q">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <aside class="col-lg-4">
+                <div class="card">
+                    <img src="https://scontent.fbel10-1.fna.fbcdn.net/v/t39.30808-6/472914398_18474909448052065_2266263145908115414_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEq2y4Mn_pKO1_odGeUMmlr4xRC7P8-CJbjFELs_z4IlsyJIHWX3AIkS-O1ADnmc542R02tscX-NnumjKkvGBWw&_nc_ohc=RtkNUjAgL_4Q7kNvgE_Ujw6&_nc_zt=23&_nc_ht=scontent.fbel10-1.fna&_nc_gid=AE1y5C-Ip4SzK8NeXsQFFW2&oh=00_AYEOEmy5AnFMqUrsaPjh8jLyLbnaZaJfiXVAJilMppUAjA&oe=67D126BA"
+                        alt="Imagem sobre mim">
+                    <div class="card-body">
+                        <h2>SOBRE MIM</h2>
+                        <p>Yago Campos (número de urna 15555) foi eleito a vereador de Santo Antônio Do Tauá pelo MDB
+                            nas Eleições 2024. Nascido em Belém (PA) em 08/11/1999, tem 25 anos, é produtor agropecuário
+                            com ensino superior completo e solteiro(a). Entre todos os participantes, Yago Campos foi
+                            o(a) candidato(a) com maior número de votos em Santo Antônio Do Tauá, com 4,49% dos votos
+                            válidos.</p>
+                    </div>
+                    <!-- Sinal de like com contagem -->
+                    <div class="like-container">
+                        <i id="like-btn" onclick="toggleLike()" class="fa fa-thumbs-up"></i> <!-- Sinal de like -->
+                        <span id="like-count">0</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="text-center py-3 mt-4">
+        <p>© 2025 Vereador Yago Campos - Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/photo/?fbid=2071924612954798&set=a.367770806703529" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+    </div>
+
+    <script>
+        // Função para alternar o like
+        function toggleLike() {
+            let counter = document.getElementById("like-count");
+            let count = parseInt(counter.textContent);
+
+            // Verifica se o like já foi dado nesta sessão
+            if (sessionStorage.getItem("hasLiked")) {
+                alert("Você já deu like nesta imagem!");
+                return;
+            }
+
+            count++; // Incrementa os likes
+            counter.textContent = count;
+
+            // Marca que o usuário já deu like nesta sessão
+            sessionStorage.setItem("hasLiked", "true");
+
+            // Salva o número de likes no sessionStorage
+            sessionStorage.setItem("likes", count);
+        }
+    </script>
+
+</body>
+</html>
